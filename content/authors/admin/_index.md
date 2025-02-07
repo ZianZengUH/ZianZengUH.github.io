@@ -54,12 +54,33 @@ interests:
   - AI for Science/Health
 
 education:
-  - area: BSc Computer Science (Data Science Track), Business Minor
-    institution: University of Hawaii at Manoa
+  - area: University of Hawaii at Manoa
+    institution: |
+      BSc Computer Science (Data Science Track), 
+      Business Minor
     date_start: 2020-08-01
     date_end: 2025-05-01
     summary: |
-      GPA: 3.87/4.0  
+      GPA: **3.87**/4.0  
+  - area: 'University of Hawaii: Windward Community College (WCC)'
+    institution: Kaneohe, HI
+    date_start: 2018-08-01
+    date_end: 2020-05-01
+    summary: |
+      Concurrent enrollment during high school for high school credits.
+      GPA: **4.0**/4.0
+  - area: Asia Pacific International School (APIS)
+    institution: Hauula, HI
+    date_start: 2015-08-01
+    date_end: 2020-05-01
+    summary: |
+      GPA: **4.38**/4.0 
+      - **Student Representative Council**:
+        - Treasurer: April 2017 - December 2019
+        - Representative: August 2018 - June 2019
+        - Activity Organizer: August 2019 - May 2020
+      - Managed school's Instagram and Facebook, contributing to photography, photo & poster editing: August 2019 - May 2020
+
     # summary: |
     #   Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
     # button:
