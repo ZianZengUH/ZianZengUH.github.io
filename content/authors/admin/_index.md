@@ -52,8 +52,7 @@ interests: |
   - Natural Language Processing
   - LLM
   - Multimodal AI
-  - Human-Computer/
-    Human-AI Interaction
+  - Human-Computer/AI Interaction
   - AI for Science/Health
 
 education:
