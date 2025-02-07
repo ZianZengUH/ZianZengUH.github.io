@@ -1,11 +1,9 @@
 ---
 # Display name
-title: >
-  Zian Zeng<br>
+title: Zian Zeng
 
 # Name pronunciation (optional)
-name_pronunciation: >
-  Dzuh-An Dzung<br>
+name_pronunciation: Dzuh-An Dzung
 
 # Full name (for SEO)
 first_name: Zian
@@ -23,13 +21,11 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: >
-  Undergraduate AI/NLP Researcher<br>
+role:  "<span class='block'>Undergraduate AI/NLP Researcher</span>"
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: >
-      University of Hawaii at Manoa<br>
+  - name: "<span class='block'>University of Hawaii at Manoa</span>"
     url: 
 
 # Social network links

@@ -50,10 +50,6 @@ markup:
   _merge: deep
   highlight:
     lineNos: false
-  # for render <br> 
-  goldmark:
-    renderer:
-      unsafe: true  
 security:
   _merge: deep
 sitemap:
