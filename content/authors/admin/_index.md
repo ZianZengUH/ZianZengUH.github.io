@@ -7,8 +7,7 @@ name_pronunciation: Dzuh-An Dzung
 
 # Full name (for SEO)
 first_name: Zian
-last_name: >
-  Zeng<br>
+last_name: Zeng
 
 # Status emoji
 status:
@@ -21,11 +20,11 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role:  "<span class='block'>Undergraduate AI/NLP Researcher</span>"
+role:  Undergraduate AI/NLP Researcher
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: "<span class='block'>University of Hawaii at Manoa</span>"
+  - name: University of Hawaii at Manoa
     url: 
 
 # Social network links

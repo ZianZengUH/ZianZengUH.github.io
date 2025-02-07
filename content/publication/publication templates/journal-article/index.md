@@ -1,4 +1,7 @@
 ---
+# Not Render, if need to render just comment it out
+draft: true
+
 title: "An example journal article"
 authors:
 - admin
