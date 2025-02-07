@@ -3,8 +3,9 @@
 title: Zian Zeng
 
 # Name pronunciation (optional)
-name_pronunciation: Dzuh-An Dzung\
-preffered as 'An', like 'An' in 'Android' (British pronunciation)
+name_pronunciation: |
+  Dzuh-An Dzung
+  preferred as 'An', like 'An' in 'Android' (British pronunciation)
 
 # Full name (for SEO)
 first_name: Zian
@@ -47,12 +48,12 @@ profiles:
   - icon: academicons/orcid
     url: https://orcid.org/
 
-interests:
+interests: |
   - Natural Language Processing
   - LLM
   - Multimodal AI
-  - Human-Computer\
-  /Human-AI Interaction
+  - Human-Computer/
+    Human-AI Interaction
   - AI for Science/Health
 
 education:
