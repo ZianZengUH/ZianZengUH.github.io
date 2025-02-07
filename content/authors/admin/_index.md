@@ -48,7 +48,7 @@ profiles:
   - icon: academicons/orcid
     url: https://orcid.org/
 
-interests: |
+interests:
   - Natural Language Processing
   - LLM
   - Multimodal AI
