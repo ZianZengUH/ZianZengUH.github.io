@@ -33,10 +33,10 @@ profiles:
   - icon: at-symbol
     url: 'mailto:zianzeng@hawaii.edu'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/
-  - icon: brands/instagram
-    url: https://www.instagram.com/
+  # - icon: brands/x
+  #   url: https://twitter.com/
+  # - icon: brands/instagram
+  #   url: https://www.instagram.com/
   - icon: brands/github
     url: https://github.com/ZianZengUH
   - icon: brands/linkedin
