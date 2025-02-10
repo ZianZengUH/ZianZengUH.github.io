@@ -13,27 +13,29 @@ sections:
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
-      # text: ""
+      text: ""
 
-      text: |-
-        <div class="content--canvas"></div>
-        <style>
-          .content--canvas {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            z-index: -1;
-          }
-        </style>
-        <script src="/background-effect/swirl.js"></script>
-        ## About Me
+      # New Background
+      
+      # text: |-
+      #   <div class="content--canvas"></div>
+      #   <style>
+      #     .content--canvas {
+      #       position: absolute;
+      #       top: 0;
+      #       left: 0;
+      #       width: 100%;
+      #       height: 100%;
+      #       z-index: -1;
+      #     }
+      #   </style>
+      #   <script src="/background-effect/swirl.bundle.js"></script>
+      #   ## About Me
 
-        Aloha! I preferred to be called as 'An', like 'An' in 'Android' (British pronunciation). I am a Computer Science student at the University of Hawaii at Manoa, passionate about Natural Language Processing (NLP), Large Language Models (LLMs), Multimodal AI, Human-AI Interaction, AI for Science & Health, and anything about AI and Tech!
+      #   Aloha! I preferred to be called as 'An', like 'An' in 'Android' (British pronunciation). I am a Computer Science student at the University of Hawaii at Manoa, passionate about Natural Language Processing (NLP), Large Language Models (LLMs), Multimodal AI, Human-AI Interaction, AI for Science & Health, and anything about AI and Tech!
 
-        🔥 I am currently on my path of research adventure, fueled by an unstoppable curiosity to explore the boundaries of AI and uncover new possibilities! To me, research is more than just finding answers—it's about creating, building, and pioneering breakthroughs that drive real-world impact. It’s a powerful tool to transform ideas into reality, develop AI that serves communities, and shape a future where technology makes a tangible difference. Every challenge is an opportunity to innovate, experiment, and redefine what AI can achieve, and I am ready to dive in, push forward, and contribute to the ever-evolving world of AI! 🚀✨
-        
+      #   🔥 I am currently on my path of research adventure, fueled by an unstoppable curiosity to explore the boundaries of AI and uncover new possibilities! To me, research is more than just finding answers—it's about creating, building, and pioneering breakthroughs that drive real-world impact. It’s a powerful tool to transform ideas into reality, develop AI that serves communities, and shape a future where technology makes a tangible difference. Every challenge is an opportunity to innovate, experiment, and redefine what AI can achieve, and I am ready to dive in, push forward, and contribute to the ever-evolving world of AI! 🚀✨
+
       # Show a call-to-action button under your biography? (optional)
       button:
         text: Download CV
@@ -41,17 +43,17 @@ sections:
     design:
       css_class: dark
 
-      # # Old Background
-      # background:
-      #   color: black
-      #   image:
-      #     # Add your image background to `assets/media/`.
-      #     filename: stacked-peaks.svg
-      #     filters:
-      #       brightness: 1.0
-      #     size: cover
-      #     position: center
-      #     parallax: false
+      # Old Background
+      background:
+        color: black
+        image:
+          # Add your image background to `assets/media/`.
+          filename: stacked-peaks.svg
+          filters:
+            brightness: 1.0
+          size: cover
+          position: center
+          parallax: false
       
   - block: markdown
     content:
