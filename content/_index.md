@@ -60,7 +60,7 @@ sections:
       background:
         image:
           # Name of image in `assets/media/`.
-          filename: background1.jpg
+          filename: background2.jpg
           # filename: stacked-peaks.svg
           # Apply image filters?
           filters:
@@ -73,7 +73,7 @@ sections:
           # Use a fun parallax-like fixed background effect on desktop? true/false
           parallax: true
           # Text color (true=light, false=dark, or remove for the dynamic theme color).
-          text_color_light: true
+          text_color_light: false
       
   - block: markdown
     content:
