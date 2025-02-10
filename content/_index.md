@@ -9,15 +9,17 @@ design:
   spacing: "6rem"
 
 sections: 
-
-  # Background 
-  - block: markdown
+  - block: resume-biography-3
     content:
+      # Choose a user profile to display (a folder name within `content/authors/`)
+      username: admin
+      # text: ""
+
       text: |-
         <div class="content--canvas"></div>
         <style>
           .content--canvas {
-            position: fixed;
+            position: absolute;
             top: 0;
             left: 0;
             width: 100%;
@@ -26,35 +28,25 @@ sections:
           }
         </style>
         <script src="/background-effect/swirl.js"></script>
-    design:
-      css_class: dark
-
-  - block: markdown
-    content:
-      text: |-
-        <div class="content--canvas" style="background: red; height: 100vh;"></div>
         
-  - block: resume-biography-3
-    content:
-      # Choose a user profile to display (a folder name within `content/authors/`)
-      username: admin
-      text: ""
       # Show a call-to-action button under your biography? (optional)
       button:
         text: Download CV
         url: uploads/resume.pdf
     design:
       css_class: dark
-      background:
-        color: black
-        image:
-          # Add your image background to `assets/media/`.
-          # filename: stacked-peaks.svg
-          filters:
-            brightness: 1.0
-          size: cover
-          position: center
-          parallax: false
+
+      # # Old Background
+      # background:
+      #   color: black
+      #   image:
+      #     # Add your image background to `assets/media/`.
+      #     filename: stacked-peaks.svg
+      #     filters:
+      #       brightness: 1.0
+      #     size: cover
+      #     position: center
+      #     parallax: false
       
   - block: markdown
     content:
