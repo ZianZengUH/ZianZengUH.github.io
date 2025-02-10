@@ -31,6 +31,7 @@ sections:
           position: center
           parallax: false
     # Background 
+  - block: markdown  
     content: |-
       <style>
         .content--canvas {
