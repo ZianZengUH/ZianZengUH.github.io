@@ -24,23 +24,38 @@ sections:
         color: black
         image:
           # Add your image background to `assets/media/`.
-          filename: stacked-peaks.svg
+          # filename: stacked-peaks.svg
           filters:
             brightness: 1.0
           size: cover
           position: center
           parallax: false
+    # Background 
+    content: |-
+      <style>
+        .content--canvas {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          z-index: -1;
+        }
+      </style>
+      <div class="content--canvas"></div>
+      <script src="/background-effect/swirl.js"></script>      
   - block: markdown
     content:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        My research focuses on advancing **Natural Language Processing (NLP), Large Language Models (LLMs), Multimodal AI, and Human-AI Interaction** to tackle impactful challenges in science, health, and accessibility.
+        My recent research focuses on advancing **Natural Language Processing (NLP), Large Language Models (LLMs), Multimodal AI, and Human-AI Interaction** to tackle impactful challenges in science, health, and accessibility.
 
         I have worked on:
         - **Neuro-symbolic models** for American Sign Language (ASL) understanding, achieving high performance in isolated sign recognition and laying the groundwork for phoneme-to-sign pipelines.
         - Developing **retrieval-augmented generation (RAG)** systems and Chain-of-Query prompting techniques to enhance reasoning in LLMs.
-        - Applying **explainable AI (XAI)** in healthcare, including Autism Spectrum Disorder (ASD) classification using cutting-edge models like Vision Transformers.
+        - **Chatbot dialog design for improved human performance in domain knowledge discovery**, optimizing conversational AI to facilitate efficient knowledge retrieval, enhance user engagement, and support domain-specific learning.
+        - Applying **explainable AI (XAI)** in healthcare, including Autism Spectrum Disorder (ASD) and Attention-Deficit/Hyperactivity Disorder (ADHD) eye-tracking classification using cutting-edge models like Vision Transformers.
 
         Through my research, I strive to bridge the gap between humans and AI by creating solutions that are inclusive, transparent, and impactful. Collaboration fuels progress, so let’s connect and build something amazing together! 🚀😃
     design:
