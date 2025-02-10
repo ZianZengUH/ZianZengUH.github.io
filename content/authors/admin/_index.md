@@ -11,7 +11,7 @@ last_name: Zeng
 
 # Status emoji
 status:
-  icon: 🗡️
+  icon: ☕️
 
 # Is this the primary user of the site?
 superuser: true
@@ -200,15 +200,18 @@ skills:
       - name: Martial Art
         description: Ba Ji Quan 八极拳, Tai Ji Quan 太极拳, Yamaguchi-Ha Toyama Ryu Iaido 山口派戸山流居合道
         percent: 80
-        icon: ☯
+        # icon: ☯
+        icon: "&#x2694;"
       - name: Music
         description: Vocal, Vocal Recording and Mixing, Guitar Fingerstyle
         percent: 80
-        icon: 🎵
+        # icon: 🎵
+        icon: "&#x1F3B6;" # Musical Note Emoji
       - name: Pickleball
         description: ''
         percent: 80
-        icon: 🎾
+        # icon: 🎾
+        icon: "&#x1F3BE;" # Tennis Emoji
 
 languages:
   - name: English
