@@ -56,3 +56,7 @@ We're an open source movement that depends on your support to stay online and th
 - [Version 5.0 (February 2021)](https://hugoblox.com/blog/version-5.0-february-2021/)
 - [Version 5.0 Beta 3 (February 2021)](https://hugoblox.com/blog/version-5.0-beta-3-february-2021/)
 <!--END_SECTION:news-->
+
+
+## Cool Backgrounds:
+https://www.reddit.com/r/webdev/comments/15x3eph/38_websites_you_can_use_for_cool_backgrounds/?rdt=55333
