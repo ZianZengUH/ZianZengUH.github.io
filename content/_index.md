@@ -60,7 +60,7 @@ sections:
       background:
         image:
           # Name of image in `assets/media/`.
-          filename: background.jpg
+          filename: background1.jpg
           # filename: stacked-peaks.svg
           # Apply image filters?
           filters:
