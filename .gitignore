@@ -1,0 +1,5 @@
+# Node.js dependencies
+node_modules/
+
+# Webpack output
+static/background-effect/swirl.bundle.js

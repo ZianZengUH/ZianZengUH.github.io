@@ -204,3 +204,5 @@ function draw() {
 
 window.addEventListener('load', setup);
 window.addEventListener('resize', resize);
+
+console.log('Swirl.js loaded successfully');
