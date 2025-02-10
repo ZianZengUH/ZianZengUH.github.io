@@ -29,6 +29,11 @@ sections:
     design:
       css_class: dark
 
+  - block: markdown
+    content:
+      text: |-
+        <div class="content--canvas" style="background: red; height: 100vh;"></div>
+        
   - block: resume-biography-3
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
