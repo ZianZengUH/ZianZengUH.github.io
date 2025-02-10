@@ -8,7 +8,27 @@ design:
   # Default section spacing
   spacing: "6rem"
 
-sections:
+sections: 
+
+  # Background 
+  - block: markdown
+    content:
+      text: |-
+        <div class="content--canvas"></div>
+        <style>
+          .content--canvas {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+          }
+        </style>
+        <script src="/background-effect/swirl.js"></script>
+    design:
+      css_class: dark
+
   - block: resume-biography-3
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
@@ -30,21 +50,7 @@ sections:
           size: cover
           position: center
           parallax: false
-    # Background 
-  - block: markdown  
-    content: |-
-      <style>
-        .content--canvas {
-          position: absolute;
-          top: 0;
-          left: 0;
-          width: 100%;
-          height: 100%;
-          z-index: -1;
-        }
-      </style>
-      <div class="content--canvas"></div>
-      <script src="/background-effect/swirl.js"></script>      
+      
   - block: markdown
     content:
       title: '📚 My Research'
