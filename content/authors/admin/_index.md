@@ -201,17 +201,17 @@ skills:
         description: Ba Ji Quan 八极拳, Tai Ji Quan 太极拳, Yamaguchi-Ha Toyama Ryu Iaido 山口派戸山流居合道
         percent: 80
         # icon: ☯
-        icon: "fencing"
+        icon: "fencing.svg"
       - name: Music
         description: Vocal, Vocal Recording and Mixing, Guitar Fingerstyle
         percent: 80
         # icon: 🎵
-        icon: "music" # Musical Note Emoji
+        icon: "music.svg" # Musical Note Emoji
       - name: Pickleball
         description: ''
         percent: 80
         # icon: 🎾
-        icon: "tennis" # Tennis Emoji
+        icon: "tennis.svg" # Tennis Emoji
 
 languages:
   - name: English
