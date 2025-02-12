@@ -41,39 +41,39 @@ sections:
         text: Download CV
         url: uploads/resume.pdf
 
-    # design:
-    #   css_class: dark
-
-    #   # Old Background
-    #   background:
-    #     color: black
-    #     image:
-    #       # Add your image background to `assets/media/`.
-    #       filename: stacked-peaks.svg
-    #       filters:
-    #         brightness: 1.0
-    #       size: cover
-    #       position: center
-    #       parallax: false
-
     design:
+      css_class: dark
+
+      # Old Background
       background:
+        color: black
         image:
-          # Name of image in `assets/media/`.
-          filename: background2.jpg
-          # filename: stacked-peaks.svg
-          # Apply image filters?
+          # Add your image background to `assets/media/`.
+          filename: stacked-peaks.svg
           filters:
-            # Darken the image? Range 0-1 where 1 is transparent and 0 is opaque.
             brightness: 1.0
-          #  Image fit. Options are `cover` (default), `contain`, or `actual` size.
           size: cover
-          # Image focal point. Options include `left`, `center` (default), or `right`.
           position: center
-          # Use a fun parallax-like fixed background effect on desktop? true/false
-          parallax: true
-          # Text color (true=light, false=dark, or remove for the dynamic theme color).
-          text_color_light: light
+          parallax: false
+
+    # design:
+    #   background:
+    #     image:
+    #       # Name of image in `assets/media/`.
+    #       filename: background2.jpg
+    #       # filename: stacked-peaks.svg
+    #       # Apply image filters?
+    #       filters:
+    #         # Darken the image? Range 0-1 where 1 is transparent and 0 is opaque.
+    #         brightness: 1.0
+    #       #  Image fit. Options are `cover` (default), `contain`, or `actual` size.
+    #       size: cover
+    #       # Image focal point. Options include `left`, `center` (default), or `right`.
+    #       position: center
+    #       # Use a fun parallax-like fixed background effect on desktop? true/false
+    #       parallax: true
+    #       # Text color (true=light, false=dark, or remove for the dynamic theme color).
+    #       text_color_light: light
       
   - block: markdown
     content:
